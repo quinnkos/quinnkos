@@ -19,7 +19,7 @@
   - Python
   - Java
   - C++
-- Familiar:
+- Intermediate:
   - R
   - JavaScript
   - HTML/CSS
