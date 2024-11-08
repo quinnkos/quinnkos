@@ -17,8 +17,8 @@
 
 - Experienced:
   - Python
-  - Java
   - C++
+  - Java
 - Intermediate:
   - R
   - JavaScript
@@ -27,4 +27,3 @@
 Thanks for stopping by!
 
 [portfolio]: https://quinnkos.github.io/quinnkos/
-[linkedin]: https://linkedin.com/in/quinnkoster/
