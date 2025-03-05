@@ -1,7 +1,7 @@
 ### Hello, My name is Quinn Koster.
 
 #### I study computer science at UC Santa Barbara and am particularly interested in machine learning.
-<img align="right" src="assets/images/person3.jpg" width="300" />
+<img align="right" src="assets/images/person2.jpg" width="300" />
 
 #### Visit my [portfolio][portfolio] to learn more about me!
 
