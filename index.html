@@ -54,10 +54,10 @@
                     <div class="col-lg-10">
                         <img src="./assets/images/person3.jpg" class="d-none d-lg-block rounded-2 mb-3" alt="" style="width: 200px; height: auto;">
                         <h1 class="display-4 fw-bold" data-aos="fade-up">WELCOME</h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hello! My name is Quinn Koster.
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hello, My name is Quinn!
                             I study computer science at UC Santa Barbara and am currently most interested in predictive
                             modeling tasks, especially through the use of deep learning. I am currently developing an AI
-                            to play GeoGuessr and teaching weekly machine learning workshops to students at UC Santa
+                            to play GeoGuessr and teaching machine learning workshops to students at UC Santa
                             Barbara as part of the Gaucho Sports Analytics club.
                             Scroll to learn more about me!
                         </p>
@@ -98,16 +98,15 @@
                             <img class="cropped-image rounded-2 me-3 mb-2" src="./assets/images/music3.jpg" alt="">
                             <div>
                                 <h5 class="mt-4 mb-2">Making Music</h5>
-                                <p>Music has been a part of my life ever since I began learning piano at age 3.
-                                    Throughout my childhood, my interests and abilities evolved.
-                                    Around age 9 or 10, I began learning guitar and attending frequent music camps to
-                                    play and compose music with other young musicians. At age 10, I also began producing
-                                    songs electronically on programs like GarageBand. Entering high school, and throughout
-                                    the pandemic and the years that followed, electronic music production has remained my
-                                    primary passion (plus some jazz piano on the side). At age 17, amidst an intense college
-                                    application season, I co-produced, mixed and mastered six songs for MasterChef
-                                    winner and musical hobbyist Dino Angelo Luciano. While I'm at college in Santa Barbara, 
-                                    I continue to play guitar, especially the acoustic.
+                                <p>Music has always been a huge part of my life. I began learning piano at age 3 and improved
+                                    well into my adolescent years. Around age 9 or 10, I began learning guitar and attending 
+                                    music camps to compose and perform music with other young musicians. At age 10, I also began 
+                                    producing songs electronically on programs like GarageBand. Entering high school, and throughout
+                                    the pandemic and the years that followed, electronic music production remained my
+                                    primary passion. At age 17, amidst an intense college application season, I co-produced, mixed 
+                                    and mastered six songs for MasterChef winner and musical hobbyist Dino Angelo Luciano. 
+                                    As of March 2025, I am currently working on an EP with Dino and playing acoustic guitar in my 
+                                    spare time.
                                 </p>
                             </div>
                         </div>
@@ -117,9 +116,11 @@
                         <div class="card-custom p-4 bg-base rounded-2 shadow-effect">
                             <div>
                                 <h5 class="mt-4 mb-2">Cooking</h5>
-                                <p>I find immense joy and beauty in cooking—I love to innovate in the kitchen and
-                                    develop interesting flavor combinations. At the moment, I am particularly drawn to
-                                    South Indian food.</p>
+                                <p>I find immense joy and beauty in cooking—I love to work with spices and
+                                    develop interesting flavor combinations. I am particularly drawn to
+                                    Indian food—a few weeks ago, I made an awesome vindaloo, and more recently,
+                                    a biryani. I'll update this once I decide the fate of the massive lamb leg 
+                                    in my fridge!</p>
                             </div>
                         </div>
                     </div>
@@ -146,6 +147,28 @@
                     <div class="col-md-6" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/project0.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Albatross (GeoGuessr AI)</h4>
+                                <p>Albatross is an AI designed to predict the coordinates of any given street view panorama from around the world.
+                                   This project was inspired by one of my favorite games of all time: GeoGuessr. The game puts users in a random
+                                   street view location and tasks them with determining their location. The strategies I have implemented to improve
+                                    the accuracy of the model include image partitioning (separating a panorama into four square directional images
+                                    and averaging their embeddings during training), layered geographic clustering (combining clustering algorithms
+                                    at different levels of geographic precision), and of course, methods like learning rate annealing,
+                                    L2 regularization, and early stopping. Currently, the model's median test error is below 350 miles 
+                                    (think the distance of a straight line from San Francisco to Los Angeles)!
+                                    
+                                </p>
+                                <a class="link-custom" href="https://github.com/quinnkos/Albatross" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
                                 <img class="rounded-4" src="./assets/images/project1.png" alt="">
                                 <img class="overlay-image" src="./assets/images/project1.1.jpeg" alt="">
                             </div>
@@ -156,8 +179,8 @@
                                     footage, the number of rooms and bedrooms, and whether the house is furnished. The algorithm
                                     responsible for calculating these details is tailored to account for every game item’s dimensions,
                                     properties, and impact on player movement, as well as the characteristics of the player itself. More
-                                    recently, as a consequence of my developing interest in machine learning, I implemented a feature that
-                                    leverages house price data to predict the hypothetical values of Minecraft houses on the active market</p>
+                                    recently, I implemented a feature that
+                                    leverages house price data to predict the hypothetical values of Minecraft houses on the active market.</p>
                                 <a class="link-custom" href="https://github.com/quinnkos/irreal-estate" target="_blank">Learn More</a>
                             </div>
                         </div>
@@ -173,11 +196,11 @@
                             </div>
                             <div class="card-custom-content p-4">
                                 <h4>U.S. Presidential Election Simulator</h4>
-                                <p>This tool uses data from past U.S. presidential elections and implements randomization
-                                    and Gaussian distributions to simulate realistic alternate outcomes. It allows users to
+                                <p>This tool uses data from past U.S. presidential elections to simulate realistic alternate outcomes. 
+                                    It allows users to
                                     dictate the extent to which the simulated results can vary from the true ones.
                                     My favorite part of this
-                                    program is the live map of the simulation results (see video above). The map depends on a
+                                    program is the live map of the simulation results (see video above). The animation is dictated by a
                                     feature I implemented that predicts when a state will be projected based on
                                     how narrow the race is and when the polls in that state close.
                                     </p>
