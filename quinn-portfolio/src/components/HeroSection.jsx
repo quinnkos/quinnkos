@@ -5,23 +5,6 @@ const HeroSection = ({ scrollToSection }) => {
   return (
     <section id="home" className="section">
       <div className="hero">
-        <div className="profile-pic">
-          <img
-            src="/images/profile.jpg"
-            alt="Quinn Koster"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              borderRadius: '50%'
-            }}
-            onError={(e) => {
-              e.target.style.display = 'none';
-            }}
-          />
-          <div className="profile-inner" style={{ display: 'none' }}>Q</div>
-        </div>
-
         <h1 className="hero-title">WELCOME</h1>
 
         <p className="hero-text">
