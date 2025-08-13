@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import InvolvementsSection from './components/InvolvementsSection.jsx';
+import FeaturedSection from "./components/FeaturedSection.jsx";
 import HeroSection from './components/HeroSection';
 //import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -24,6 +25,8 @@ const HomePage = () => {
         activeSection={activeSection}
         scrollToSection={scrollToSection}
       />
+
+        <FeaturedSection />  {}
 
       <HeroSection scrollToSection={scrollToSection} />
 

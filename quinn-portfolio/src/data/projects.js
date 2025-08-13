@@ -4,7 +4,7 @@ export const projectsData = [
     slug: "albatross",
     description: "An AI bot to predict the geographic coordinates of a given street view panorama.",
     github: "https://github.com/quinnkos/Albatross",
-    tech: ["PyTorch", "OpenCV", "NumPy", "Python", "Flask"],
+    tech: ["PyTorch", "OpenCV", "NumPy", "Flask"],
     video: "/quinnkos/images/projects/Albatross_Demo_With_Video.mp4",
     poster: "/quinnkos/images/projects/albatross.jpg"
   },
