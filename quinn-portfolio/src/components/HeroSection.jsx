@@ -8,11 +8,12 @@ const HeroSection = ({ scrollToSection }) => {
         <h1 className="hero-title">WELCOME</h1>
 
         <p className="hero-text">
-          Hello, My name is <span className="highlight">Quinn</span>!
+          Hello, My name is Quinn!
           I study computer science at UC Santa Barbara and am currently most interested in
-          <span className="highlight"> predictive modeling tasks</span>,
-          especially through the use of deep learning. I am currently developing an AI to play
-          GeoGuessr and teaching machine learning workshops to students at UC Santa Barbara.
+          machine learning and AI integration, software development, and game design.
+          Currently, I work full time on a research project at UC Santa Barbara's Human AI Integration Lab
+          focused on evaluating feedback and feedforward methods for fencing training in Augmented Reality.
+          Scroll to browse my personal projects!
         </p>
 
         <div className="button-container">

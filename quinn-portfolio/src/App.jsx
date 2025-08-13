@@ -37,7 +37,7 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/quinnkos">
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
