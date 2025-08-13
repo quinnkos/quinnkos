@@ -14,11 +14,11 @@ export const projectsData = [
     github: "https://github.com/quinnkos/irreal-estate",
     tech: ["Gradle", "Scikit-learn", "Java", "Python"],
     image: "/quinnkos/images/projects/irreal-estate.jpg",
-    //overlayImage: "/quinnkos/images/projects/irreal-estate-overlay.jpg"
+    image_extra: "/quinnkos/images/projects/irreal-estate-overlay.jpg"
   },
   {
     title: "AI Chess Bot",
-    description: "A chess-playing bot utilizing optimization techniques such as alpha-beta pruning, preliminary evaluation, a transposition table, late move reduction, and MVV-LVA (Most Valuable Victim - Least Valuable Aggressor).",
+    description: "A chess bot optimized through alpha-beta pruning, preliminary evaluation, a transposition table, late move reduction, and MVV-LVA (Most Valuable Victim - Least Valuable Aggressor).",
     github: "https://github.com/quinnkos/chess-bot",
     tech: ["Python", "Algorithms"],
     image: "/quinnkos/images/projects/chess-bot.jpg"

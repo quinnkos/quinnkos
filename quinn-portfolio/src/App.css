@@ -410,6 +410,47 @@ body::after {
   font-size: 24px;
 }
 
+.project-video-indicator {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #2d2d2d;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+  transform: rotate(-3deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+.project-video-indicator:hover {
+  transform: rotate(3deg) scale(1.1);
+  background: #ffeb3b;
+}
+
+.project-video-indicator::before {
+  content: '▶';
+  color: #ff6b6b;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
 .project-content {
   padding: 25px;
   background: white;

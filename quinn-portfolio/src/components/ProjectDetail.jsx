@@ -142,34 +142,15 @@ To accomplish this, I conducted exploratory data analysis and wrote a series of 
                 Your browser does not support the video tag.
               </video>
             ) : project.image ? (
-              <div style={{ position: 'relative' }}>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  style={{
-                    width: '100%',
-                    borderRadius: '12px',
-                    boxShadow: '0 10px 30px rgba(0,0,0,0.3)'
-                  }}
-                />
-                {project.overlayImage && (
-                  <img
-                    src={project.overlayImage}
-                    alt={`${project.title} overlay`}
-                    style={{
-                      position: 'absolute',
-                      bottom: '15px',
-                      left: '15px',
-                      width: '80px',
-                      height: '80px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                      border: '3px solid white',
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
-                    }}
-                  />
-                )}
-              </div>
+              <img
+                src={project.image}
+                alt={project.title}
+                style={{
+                  width: '100%',
+                  borderRadius: '12px',
+                  boxShadow: '0 10px 30px rgba(0,0,0,0.3)'
+                }}
+              />
             ) : (
               <div style={{
                 width: '100%',
@@ -185,6 +166,19 @@ To accomplish this, I conducted exploratory data analysis and wrote a series of 
               }}>
                 {project.title[0]}
               </div>
+            )}
+
+            {project.image_extra && (
+              <img
+                src={project.image_extra}
+                alt={`${project.title} additional`}
+                style={{
+                  width: '100%',
+                  borderRadius: '12px',
+                  boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
+                  marginTop: '1rem'
+                }}
+              />
             )}
           </div>
 

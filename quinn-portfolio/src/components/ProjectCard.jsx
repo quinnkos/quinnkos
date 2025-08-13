@@ -10,6 +10,11 @@ const ProjectCard = ({ project, index }) => {
         style={{ textDecoration: 'none', color: 'inherit' }}
       >
         <div className="project-image" style={{ cursor: 'pointer' }}>
+          {/* Video indicator for projects with videos */}
+          {project.video && (
+            <div className="project-video-indicator" />
+          )}
+
           {project.video ? (
             <video
               poster={project.poster}
@@ -43,12 +48,10 @@ const ProjectCard = ({ project, index }) => {
                   zIndex: 1
                 }}
                 onLoad={(e) => {
-                  // Hide the letter when image loads successfully
                   const letterDiv = e.target.parentElement.querySelector('.project-letter');
                   if (letterDiv) letterDiv.style.display = 'none';
                 }}
                 onError={(e) => {
-                  // Show the letter if image fails to load
                   e.target.style.display = 'none';
                   const letterDiv = e.target.parentElement.querySelector('.project-letter');
                   if (letterDiv) letterDiv.style.display = 'flex';
@@ -70,7 +73,6 @@ const ProjectCard = ({ project, index }) => {
                     border: '2px solid white'
                   }}
                   onError={(e) => {
-                    // Hide overlay if it fails to load
                     e.target.style.display = 'none';
                   }}
                 />
@@ -117,12 +119,13 @@ const ProjectCard = ({ project, index }) => {
           ))}
         </div>
 
+        {/* FIX: Added missing <a> tag */}
         <a
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
           className="project-link"
-          onClick={(e) => e.stopPropagation()} // Prevent navigation to project page
+          onClick={(e) => e.stopPropagation()}
         >
           <Github size={16} />
           <span>View on GitHub</span>
