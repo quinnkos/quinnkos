@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import InvolvementsSection from './components/InvolvementsSection.jsx';
 import HeroSection from './components/HeroSection';
 //import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -27,6 +28,8 @@ const HomePage = () => {
       <HeroSection scrollToSection={scrollToSection} />
 
         {/*<AboutSection />*/}
+
+        <InvolvementsSection involvements={scrollToSection} />
 
       <ProjectsSection projects={projectsData} />
 

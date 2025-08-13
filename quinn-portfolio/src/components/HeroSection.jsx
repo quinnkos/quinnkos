@@ -8,12 +8,10 @@ const HeroSection = ({ scrollToSection }) => {
         <h1 className="hero-title">WELCOME</h1>
 
         <p className="hero-text">
-          Hello, My name is Quinn!
-          I study computer science at UC Santa Barbara and am currently most interested in
-          machine learning and AI integration, software development, and game design.
-          Currently, I work full time on a research project at UC Santa Barbara's Human AI Integration Lab
-          focused on evaluating feedback and feedforward methods for fencing training in Augmented Reality.
-          Scroll to browse my personal projects!
+          Hello, My name is Quinn.
+          I study computer science at UC Santa Barbara and am interested in
+          machine learning and AI integration, software development, data science, and game design.
+          Scroll to learn more about me!
         </p>
 
         <div className="button-container">
