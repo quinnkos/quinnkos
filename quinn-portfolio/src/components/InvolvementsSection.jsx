@@ -9,7 +9,7 @@ const InvolvementsSection = () => {
       title: "Undergraduate Researcher",
       organization: "Human-AI Experience Lab, UC Santa Barbara",
       description:
-        "At UCSB’s Human-AI Experience (HAX) Lab, I lead the technical construction of a project evaluating feedback and feedforward methods for fencing training in Augmented Reality. " +
+        "At UCSB’s Human-AI Experience (HAX) Lab, I lead the technical construction of a project evaluating feedback and feedforward methods for fencing training in augmented reality. " +
           "Most notably, I developed a kinematics pipeline to compare athletes’ movements to expert performances - personalized to the athletes' body dimensions. " +
           "To accompany this, I designed a HoloLens 2 playback system in Unity to showcase the athletes' performances relative to the expert in a variety of visualization modes, " +
           "integrating a joint error map and other features to highlight faults in technique. ",
@@ -26,10 +26,10 @@ const InvolvementsSection = () => {
           title: "Co-President",
           organization: "Gaucho Sports Analytics, UC Santa Barbara",
           description:
-              "As Co-President of UCSB’s first student-led sports analytics organization, I oversee operations, partnerships, and strategic direction, working closely with an executive board of " +
-              "eight and actively collaborating with UCSB's Division I Baseball and Basketball programs. " +
-              "In my prior role as a Technical Officer, I constructed and led the club's very first workshops that introduced over 200 students to data science and applied machine learning in sports contexts. " +
-              "I also mentored a five-member team in developing a lineup optimization model for the UCSB Baseball Team, combining statistical modeling with relevant insights for coaching staff.",
+              "As co-president of UCSB’s first student-led sports analytics organization, I oversee operations, partnerships, and strategic direction, working closely with an executive board of " +
+              "eight and actively collaborating with UCSB's Division I baseball and basketball programs. " +
+              "In my prior role as a technical officer, I constructed and led the club's very first workshops that introduced over 200 students to data science and applied machine learning in sports contexts. " +
+              "I also mentored a five-member team in developing a lineup optimization model for the UCSB baseball team, combining statistical modeling with relevant insights for coaching staff.",
           link: "https://gauchosportsanalytics.com/",
           icon: <img src={gsacLogo} alt="GSA" style={{
                                                       width: 50,

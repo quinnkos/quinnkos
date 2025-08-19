@@ -570,16 +570,6 @@ body::after {
   position: relative;
 }
 
-.hero-text::before {
-  content: '"';
-  position: absolute;
-  top: -10px;
-  left: 20px;
-  font-size: 40px;
-  color: #ff6b6b;
-  font-weight: bold;
-}
-
 .highlight {
   background: #4ecdc4;
   color: white;

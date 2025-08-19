@@ -8,9 +8,9 @@ const HeroSection = ({ scrollToSection }) => {
         <h1 className="hero-title">WELCOME</h1>
 
         <p className="hero-text">
-          Hello, My name is Quinn.
-          I study computer science at UC Santa Barbara and am interested in
-          machine learning and AI integration, software development, data science, and game design.
+          Hello, my name is Quinn.
+          I study computer science at UC Santa Barbara and I'm interested in
+          data science and machine learning, computer vision, software development, and game design.
           Scroll to learn more about me!
         </p>
 

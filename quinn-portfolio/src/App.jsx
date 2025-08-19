@@ -26,9 +26,9 @@ const HomePage = () => {
         scrollToSection={scrollToSection}
       />
 
-        <FeaturedSection />  {}
-
       <HeroSection scrollToSection={scrollToSection} />
+
+        <FeaturedSection />  {}
 
         {/*<AboutSection />*/}
 
